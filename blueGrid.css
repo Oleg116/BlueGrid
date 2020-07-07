@@ -1,0 +1,190 @@
+* {
+	font-family: 'Poppins', sans-serif;
+}
+
+body {
+	margin: 0px;
+}
+
+header {
+	background: #2c2c2c;
+	display: flex;
+	flex-direction: row;
+	color: white;
+	padding: 0px;
+	margin: 0px;
+}
+
+.logo {
+	margin: 0px 150px; 
+}
+
+.navList {
+	font-size: 18px;
+	margin: 0px 0px 0px 90px;
+	display: flex;
+	flex-direction: row;
+}
+
+.headlist {
+	list-style: none;
+	margin: 30px 0px 0px 0px;
+	padding: 0px 0px 0px 30px;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+.bold {
+	font-weight: 700;
+}
+
+.blue {
+	color: #7a90a1;
+}
+
+h1 {
+	font-size: 30px;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+.first-par {
+	width: 500px;
+	height: auto;
+	margin: 0px 200px 0px 150px;
+}
+
+.bluegrid-link  {
+	color: blue;
+}
+
+.summary {
+	width: 500px;
+	height: auto;
+	margin:0px 0px 0px 150px;
+}
+
+.main-span {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.list-container {
+	display: flex;
+	flex-direction: row;
+	margin: 0px;
+	padding: 0px;
+}
+
+.list-small-container {
+	display: flex;
+	flex-direction: column;
+	margin-left: 0px;
+	padding: 0px;
+}
+
+li {
+	list-style: none;
+	margin: 0px;
+	padding: 10px 0px 0px 0px;
+}
+.hiring {
+	width: 450px;
+	height: auto;
+	margin:50px 0px 0px 150px;
+}
+
+.column-cont-warp {
+	display: flex;
+	flex-direction: column;
+}
+
+.content-container {
+	display: flex;
+	flex-direction: row;
+}
+
+.news {
+	width: 300px;
+	margin-left: 20px;
+}
+
+.news-part {
+	margin: 10px 0px 10px 0px;
+}
+
+.news-link {
+	color: blue;	
+}
+
+footer {
+	background: #2c2c2c;
+	height: 200px;
+	margin-top: 30px;
+	display: flex;
+	flex-direction: row;
+}
+
+.client-log {
+	color: #fff;
+	margin-bottom: 5px
+}
+
+.client-form {
+	display: flex;
+	flex-direction: column;
+	width: 100px;
+	padding: 20px;
+	margin: 0px 30px;
+}
+
+input {
+	margin-top: 10px;
+	width: 150px;
+}
+
+.losted{
+	display: flex;
+	flex-direction: row;
+	width: 300px;
+}
+
+.submit {
+	width: 100px;
+	margin-left: 30px;
+}
+
+.small {
+	margin-top: 10px;
+	font-size: 15px;
+	width: 300px;
+	height: auto;
+}
+
+.contact-form {
+	display: flex;
+	flex-direction: column;
+	width: auto;
+	padding: 20px;
+	margin: 0px 300px;
+}
+
+.email {
+	font-size: 14px;
+	margin-left: 8px;
+}
+
+.email-span {
+	color: #fff;
+	font-size: 14px;
+}
+
+.email-div {
+	display: flex;
+	flex-direction: row;
+}
