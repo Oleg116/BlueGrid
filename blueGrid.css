@@ -1,5 +1,6 @@
 * {
 	font-family: 'Poppins', sans-serif;
+	transition: 0.2s;
 }
 
 body {
@@ -21,7 +22,7 @@ header {
 
 .navList {
 	font-size: 18px;
-	margin: 0px 0px 0px 90px;
+	margin: 20px 0px 0px 90px;
 	display: flex;
 	flex-direction: row;
 }
@@ -30,10 +31,10 @@ header {
 	list-style: none;
 	margin: 30px 0px 0px 0px;
 	padding: 0px 0px 0px 30px;
+	color: #fff;
 }
 
 a {
-	color: #fff;
 	text-decoration: none;
 }
 .bold {
@@ -146,6 +147,7 @@ footer {
 input {
 	margin-top: 10px;
 	width: 150px;
+	padding-left: 15px; 
 }
 
 .losted{
@@ -159,11 +161,14 @@ input {
 	margin-left: 30px;
 }
 
-.small {
+.white-href {
 	margin-top: 10px;
 	font-size: 15px;
 	width: 300px;
 	height: auto;
+	font-size: 14px;
+	margin-left: 8px;
+	color: #fff;
 }
 
 .contact-form {
@@ -182,9 +187,18 @@ input {
 .email-span {
 	color: #fff;
 	font-size: 14px;
+	margin: 10px;
+}
+.email-warp {
+	margin-bottom: 10px;
 }
 
 .email-div {
 	display: flex;
 	flex-direction: row;
+}
+
+.headlist:hover {
+	color: #7a90a1;
+	text-shadow: 1px 1px 13px #7a90a1;
 }
